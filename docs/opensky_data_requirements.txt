@@ -1,0 +1,6 @@
+WHAT DATA IS AVAILABLE
+
+Flight data available from opensky is delivered in the form of state vectors derived from ADS-B and Mode S messages. Information such as position and velocity can be retrieved a state vector in the form of a JSON object.
+
+* Identifying aircraft *
+Each aircraft's transponder is identified by a 24-bit ICAO address, usually displayed as a 6-digit hex value (ex. FA3B9C)

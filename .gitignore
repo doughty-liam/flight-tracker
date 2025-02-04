@@ -1,3 +1,8 @@
+# User-added
+venv_usage.txt
+docker-compose.yaml
+Dockerfile
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -169,3 +174,43 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+flight-tracker-ui/node_modules
+flight-tracker-ui/pnp
+flight-tracker-ui/pnp.*
+flight-tracker-ui/yarn/*
+flight-tracker-ui/!yarn/patches
+flight-tracker-ui/!yarn/plugins
+flight-tracker-ui/!yarn/releases
+flight-tracker-ui/!yarn/versions
+
+# testing
+flight-tracker-ui/coverage
+
+# next.js
+flight-tracker-ui/.next/
+flight-tracker-ui/out/
+
+# production
+flight-tracker-ui/build
+
+# misc
+flight-tracker-ui/DS_Store
+flight-tracker-ui/*.pem
+
+# debug
+flight-tracker-ui/npm-debug.log*
+flight-tracker-ui/yarn-debug.log*
+flight-tracker-ui/yarn-error.log*
+flight-tracker-ui/.pnpm-debug.log*
+
+# vercel
+flight-tracker-ui/vercel
+
+# typescript
+flight-tracker-ui/*.tsbuildinfo
+flight-tracker-ui/next-env.d.ts

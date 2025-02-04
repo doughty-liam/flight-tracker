@@ -1,0 +1,16 @@
+PURPOSE:
+
+The main purpose of this project is to gain experience with batch-processing using Apache Airflow. I will also be using new tools/frameworks such as PostgreSQL and React to expand my knowledge gained.
+
+
+APPLICATION FEATURES:
+
+The app to be built will perform the following tasks:
+- Collection of real-time flight data from the OpenSky network using Apache Airflow.
+- Warehousing of flight/air-traffic data to a PostgreSQL database using Python and Airflow
+- Display of air-traffic data using a MapBox API built on top of a React front-end UI.
+- Analytical insights displayed to front-end using SQL
+
+
+
+
